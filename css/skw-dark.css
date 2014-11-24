@@ -1,0 +1,96 @@
+.skw-loader {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: #000 url(../img/ajax-loader-dark.gif) center no-repeat;
+}
+
+.skw-nav { 
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -ms-transition: all .6s;
+  transition: all .6s;
+  overflow: hidden; 
+  opacity: .8; 
+  position: absolute; 
+  bottom: 3%; 
+  left: 50%; 
+  z-index: 9999; 
+  background: none; 
+  border-radius: 25px; 
+  color: #fff;
+  line-height: 1.2;
+}
+
+.skw-nav > span { 
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -ms-transition: all .6s;
+  transition: all .6s;
+  opacity: 0; 
+  padding: 5px 8px; 
+  background: rgba(0,0,0,.2); 
+  display: inline-block; 
+  vertical-align: middle; 
+  cursor: pointer; 
+  font-weight: bold; 
+}
+
+.skw-nav:hover > span { 
+  opacity: .5;
+}
+
+.skw-nav > span:hover { 
+    background: rgba(0,0,0,0.5); 
+    opacity: 1;
+}
+
+.skw-dots { 
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: 0 20px; 
+}
+
+.skw-dots:before { 
+    content: ""; 
+    display: inline-block; 
+    height: 100%; 
+    vertical-align: middle; 
+}
+
+.skw-dots span { 
+    cursor: pointer; 
+    opacity: .6; 
+    vertical-align: middle; 
+    width: 10px; 
+    height: 10px; 
+    display: inline-block; 
+    margin: 5px; 
+    background: #000; 
+    border: 1px solid rgba(255,255,255,.8); 
+    border-radius: 50%; 
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+.skw-dots span:hover, .skw-dots span.skw-current { 
+    opacity: 1; 
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2); 
+}
+
+.skw-caption:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*width: 250px;*/
+    height: 100%;
+    z-index: -1;
+    -webkit-transform: skew(-25deg, 0);
+    transform: skew(-25deg, 0);
+}

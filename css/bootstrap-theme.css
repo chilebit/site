@@ -1,0 +1,245 @@
+/*!
+ * Bootstrap v3.1.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato', sans-serif, Helvetica, Arial;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333;
+  background-color: #fff;
+} 
+
+h1,
+.h1 {
+  font-size: 24px;
+}
+h2,
+.h2 {
+  font-size: 22px;
+}
+h3,
+.h3 {
+  font-size: 18px;
+  text-transform:uppercase;
+  color:#666;
+}
+h4,
+.h4 {
+  font-size: 16px;
+}
+h5,
+.h5 {
+  font-size: 14px;
+}
+h6,
+.h6 {
+  font-size: 14px;
+}
+
+
+a {
+  color: #0248a2;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #003C89;
+  text-decoration: none;
+}
+a:focus {
+  outline: thin none;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+
+.navbar-inverse {
+  background-color: #fff;
+  border-color: #080808;
+}
+
+.navbar {
+    border: none;
+    margin-bottom: 0px;
+    min-height: 30px;
+    position: relative;
+}
+
+.navbar-brand {
+  float: left;
+  margin:10px 0 5px 0;
+  padding:0;
+  width:196px;
+  height:79px;
+
+}
+
+
+
+.navbar-default {
+	background:none;
+
+}
+
+
+.navbar-nav > li > a {
+	padding-top: 10px;
+    padding-bottom: 9px;
+    
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+	text-transform:uppercase;
+	border-bottom:3px solid rgba(30,30,30,0.0);
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active
+ {
+	background-color:#FFFFFF;
+	border-bottom:3px solid #0248a2;
+	color:#464545;
+
+}
+
+.page-header {
+  padding-bottom: 0px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #ddd;
+  text-transform:uppercase;
+  color:#464545;
+}
+
+.page-header small{
+	text-transform:none !important;
+	}
+
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+
+
+.btn-default {
+	background-color:#003C89;
+	color:#fff;
+	border:none;
+  
+}
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #002370;
+  background-position: 0 -15px;
+  color:#fff;
+}
+.btn-default:active,
+.btn-default.active {
+  background-color: #e0e0e0;
+  border-color: #dbdbdb;
+}
+
+
+.jumbotron {
+  padding: 0px;
+  margin-bottom: 30px;
+  color: #666;
+  background-color: #fff;
+  
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 22px;
+  line-height:27px;
+  font-weight: normal;
+}
+.container .jumbotron {
+  border-radius: 0px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .container .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+
+
+#table-responsive .table > tbody > tr > th,
+#table-responsive .table > tbody > tr > td
+{
+  padding:25px 10px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+
+
+.table > tbody > tr > th,
+.table > tbody > tr > td
+{
+  padding:10px 10px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 480px) {
+	
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+	text-transform:uppercase;
+	border-bottom:none;
+	margin-bottom:3px;
+	border-left:3px solid rgba(30,30,30,0.0);
+	
+
+}
+	
+	
+	
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
+    background-color: #ffffff;
+    border-left:3px solid #0248a2;
+	border-bottom:none;
+    color: #464545;
+}
+}
+
+
+
+
+
+
