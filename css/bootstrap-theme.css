@@ -41,12 +41,12 @@ h6,
 
 
 a {
-  color: #0248a2;
+  color: #4585FF;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #003C89;
+  color: #2C6CE6;
   text-decoration: none;
 }
 a:focus {
@@ -72,7 +72,7 @@ a:focus {
   float: left;
   margin:10px 0 5px 0;
   padding:0;
-  width:196px;
+  width:264px;
   height:79px;
 
 }
@@ -102,7 +102,7 @@ a:focus {
 .navbar-default .navbar-nav > li > a.active
  {
 	background-color:#FFFFFF;
-	border-bottom:3px solid #0248a2;
+	border-bottom:3px solid #4585FF;
 	color:#464545;
 
 }
@@ -130,14 +130,14 @@ hr {
 
 
 .btn-default {
-	background-color:#003C89;
+	background-color:#4585FF;
 	color:#fff;
 	border:none;
   
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #002370;
+  background-color: #2C6CE6;
   background-position: 0 -15px;
   color:#fff;
 }
@@ -232,7 +232,7 @@ label {
 	
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
     background-color: #ffffff;
-    border-left:3px solid #0248a2;
+    border-left:3px solid #4585FF;
 	border-bottom:none;
     color: #464545;
 }

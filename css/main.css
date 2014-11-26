@@ -82,7 +82,7 @@ height: 100%;
     }
 
 #footer {
-	background-color:#003C89;
+	background-color:#061E42;
 	color:#fff;
 	 }
 
@@ -107,7 +107,7 @@ height: 100%;
 
 .footer-top{
 	min-height:120px;
-	border-bottom:1px solid #002370;
+	border-bottom:1px solid rgba(255,255,255,0.1);
 	
 	
 	}
