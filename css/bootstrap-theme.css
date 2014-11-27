@@ -98,8 +98,8 @@ a:focus {
 
 }
 
-.navbar-default .navbar-nav > li > a:hover
-/*.navbar-default .navbar-nav > li > a.active*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active
  {
 	background-color:#FFFFFF;
 	border-bottom:3px solid #4585FF;
