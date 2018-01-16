@@ -1,10 +1,10 @@
 # Site settings
-title: ChileBit.NET
+title: ChileBit Exchange
 email: contacto@chilebit.net
 description: > # this means to ignore newlines until "baseurl:"
   La primera open exchange de Bitcoins en Chile.   
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://chilebit.net" # the base hostname & protocol for your site
+url: "https://chilebit.net" # the base hostname & protocol for your site
 twitter_username: chilebitnet
 facebook_username: chilebit.net
 youtube_username: UCmG70lY6nQjtmyDcH8nETaQ
